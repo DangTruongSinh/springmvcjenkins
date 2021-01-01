@@ -8,6 +8,7 @@ public class MyController {
 	
 	@RequestMapping("/hello")
 	public String hello() {
+		x;
 		return "Hello World 2021......";
 	}
 }
